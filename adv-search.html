@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <title>Розширений пошук</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+        <div class="top-right">
+            <a href="img-search.html">Зображення</a>
+            <a href="index.html">Пошук</a>
+        </div>
+        <div class="top-left">
+            <span>
+                <a href="index.html">
+                    <img src="googlelogo_light_color_272x92dp (1).png">
+                </a>
+            </span>
+        </div>
+        <div>
+            <label class="heading">Розширений пошук</label>
+        </div>
+        <hr class="hr_b">
+        <div>
+            <p class="title">Знайти сторінки, що
+            <br>містять...
+            </p>
+        </div>
+        <form action="https://google.com/search" autocomplete="off">
+            <div class="adv">
+                <label>усі ці слова:</label>
+                <input type="text" name="as_q">
+            </div>
+            <div class="adv">
+                <label>точне слово або фразу:</label>
+                <input type="text" name="as_epq">
+            </div>
+            <div class="adv">
+                <label>будь-яке з цих слів:</label>
+                <input type="text" name="as_oq">
+            </div>
+            <div class="adv">
+                <label>жодне з цих слів:</label>
+                <input type="text" name="as_eq">
+            </div>
+            <div>
+                <label class="num_label">числа в діапазоні від:</label>
+                <input class="num_input" type="text" name="as_nlo">
+                <label class="inside">до</label>
+                <input class="num_input" type="text" name="as_nhi">
+            </div>
+            <hr class="hr_s">
+            <div>
+                <input class="adv_button" type="submit" value="Розширений пошук">
+            </div>
+        </form>
+    </body>
+</html>

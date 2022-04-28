@@ -1,0 +1,145 @@
+body {
+    background-color: #232B32;
+    font-family: arial,sans-serif;
+}
+.button {
+    background-color: #3c4043;
+    border: 1px solid #3c4043;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    margin: 30px 7px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.search {
+    width: 600px;
+    background-color: transparent;
+    border:1px solid #3c4043;
+    word-wrap: break-word;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 20px;
+    outline: none;
+    color: white;
+    
+    
+}
+.center {
+    text-align: center;
+    margin-top: 300px;
+}
+.top-right {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+a {
+    font-size: 13px;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+a:hover {text-decoration:underline;}
+.center > div > span {
+    position:relative;
+    left: 126px;
+    bottom: 20px;
+    color: #4285f4;
+    font-size: 16px;
+}
+.top-left > span {
+    position:relative;
+    left: 0px;
+    bottom: 20px;
+}
+.heading {
+    color: #f28b82;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.title {
+    color: white;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.hr_b {
+    color: #3c4043;
+    background-color: #3c4043;
+    margin-top: 20px;
+    border: none;
+    height: 1px;
+}
+.hr_s {
+    width: 710px;
+    margin-left: 50px;
+    color: #3c4043;
+    background-color: #3c4043;
+    margin-top: 20px;
+    border: none;
+    height: 1px;
+}
+.adv {
+    margin-bottom: 10px;
+}
+.adv > label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 13px;
+    color: white;
+}
+.adv > input[type="text"] {
+    width: 550px;
+    height: 20px;
+    background-color: transparent;
+    border:1px solid #3c4043;
+    word-wrap: break-word;
+    outline: none;
+    color: white;
+}
+.num_input {
+    width: 240px;
+    height: 20px;
+    background-color: transparent;
+    border:1px solid #3c4043;
+    word-wrap: break-word;
+    outline: none;
+    color: white;
+}
+.num_label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 13px;
+    color: white; 
+}
+.inside {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+    color: white;
+}
+.adv_button {
+    min-width: 120px;
+    height: 30px;
+    background-color: #8ab4f8;
+    border: 1px solid #8ab4f8;
+    border-radius: 4px;
+    color: black;
+    font-size: 11px;
+    padding: 0 12px;
+    margin-left: 637px;
+    margin-top: 20px;
+}
