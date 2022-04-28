@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1200px) {
+    .center {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .center {
+        margin-top: 150px;
+    }
+    .adv > input[type="text"] {
+        width: 310px;
+        height: 18px;
+    }
+    .num_input {
+        width: 120px;
+        height: 18px;
+        font-size: 10px;
+    }
+    .hr_s {
+        margin-left: 50px;
+        width: 471px;
+    }
+    .adv_button {
+        margin-left: 420px;
+        height: 28px;
+        min-width: 50px;
+        font-size: 10px;
+        padding: 0 5px;
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .search {
+        width: 400px;
+    }
+    .center {
+        margin-top: 150px;
+    }
+    .heading {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .title {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .adv > label {
+        margin-left: 10px;
+        font-size: 12px;
+        width: 150px;
+    }
+    .adv > input[type="text"] {
+        width: 280px;
+        height: 18px;
+        font-size: 10px;
+    }
+    .num_label {
+        margin-left: 10px;
+        font-size: 12px;
+        width: 150px;
+    }
+    .num_input {
+        width: 120px;
+        height: 18px;
+        font-size: 10px;
+    }
+    .inside {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .adv_button {
+        margin-left: 350px;
+        height: 28px;
+        min-width: 50px;
+        font-size: 10px;
+        padding: 0 5px;
+        margin-top: 10px;
+    }
+    .hr_s {
+        margin-left: 10px;
+        width: 440px;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .search {
+        width: 100%;
+    }
+    .center {
+        margin-top: 150px;
+        
+    }
+    .button {
+        height: 30px;
+        min-width: 50px;
+        font-size: 10px;
+    }
+    .logo {
+        width: 200px;
+    }
+    .top-right a  {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .top-right {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .center > div > span {
+        font-size: 13px;
+        left: 100px;
+    }
+    .heading {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .title {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .adv > label {
+        margin-left: 10px;
+        font-size: 10px;
+        width: 80px;
+    }
+    .adv > input[type="text"] {
+        width: 200px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .num_label {
+        margin-left: 10px;
+        font-size: 10px;
+        width: 80px;
+    }
+    .num_input {
+        width: 81px;
+        height: 15px;
+        font-size: 10px;
+    }
+    .inside {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .adv_button {
+        margin-left: 200px;
+        height: 28px;
+        min-width: 50px;
+        font-size: 10px;
+        padding: 0 5px;
+        margin-top: 10px;
+    }
+    .hr_s {
+        margin-left: 10px;
+        width: 290px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
